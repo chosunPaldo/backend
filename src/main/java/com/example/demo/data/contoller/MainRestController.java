@@ -42,6 +42,12 @@ public class MainRestController {
         service.updateUserNickname(entity);
     }
 
+
+
+
+
+
+
     @DeleteMapping("/user/{id}")
     public void deleteUser(@PathVariable("id") Long user_id) {
         service.deleteUser(user_id);
